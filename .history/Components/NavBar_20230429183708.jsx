@@ -51,7 +51,7 @@ const NavBar = () => {
                     onClick={() => connectWallet()}
                     class="inline-flex items-center justify-center h-12 px-6 font-medium
                     tracking-wide text-white transition duration-200 rounded shadow-md
-                    bg-teal-500 hover:bg-purple-300 focus:shadow-outline focus:outline-none"
+                    bg-teal-500 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
                     aria-label="sign up"
                   >
                     Connect Wallet
@@ -124,9 +124,7 @@ const NavBar = () => {
                                 href="/"
                                 aria-label="Sign up"
                                 title="Sign up"
-                                class="inline-flex items-center justify-center h-12 px-6 font-medium
-                                tracking-wide text-white transition duration-200 rounded shadow-md
-                                bg-teal-500 hover:bg-purple-300 focus:shadow-outline focus:outline-none"
+                                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-400"
                               >
                                 Connect Wallet
                               </a>
