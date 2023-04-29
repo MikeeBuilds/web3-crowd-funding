@@ -9,11 +9,11 @@ export default function App({ Component, pageProps }) {
   return(
     <>
     <CrowdFundingProvider>
-
+      
+    </CrowdFundingProvider>
       <NavBar />
       <Component {...pageProps} />
       <Footer />
-    </CrowdFundingProvider>
     </>
   ) 
 }
