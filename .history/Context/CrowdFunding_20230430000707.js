@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ethers } from "ethers";
-import Web3modal from "web3modal";
+import * as ethers from 'ethers'import Web3modal from "web3modal";
 
 //Internal import
 import { CrowdFundingABI, CrowdFundingAddress } from "./contants";
@@ -20,7 +19,7 @@ export const CrowdFundingProvider = ({ children }) => {
   const createCampaign = async (campaign) => {
     const { title, description, amount, deadline } = campaign;
     const web3Modal = new Web3Modal();
-    const connection = await web3modal.connect();
+    const connection = await web3modal.conect();
     const provider = new ethers.providers.Web3Provider(connection);
     const signer = provider.getSigner();
     const contract = fetchContract(signer);

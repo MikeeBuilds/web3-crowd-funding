@@ -12,8 +12,4 @@ export {
     Footer,
     NavBar,
     Logo,
-    Menu,
-    Popup,
-    Card,
-    Hero
 };

@@ -11,9 +11,4 @@ import Hero from './Hero';
 export {
     Footer,
     NavBar,
-    Logo,
-    Menu,
-    Popup,
-    Card,
-    Hero
 };

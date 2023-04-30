@@ -13,7 +13,4 @@ export {
     NavBar,
     Logo,
     Menu,
-    Popup,
-    Card,
-    Hero
 };

@@ -78,12 +78,12 @@ const NavBar = () => {
                         href="/"
                         aria-label="Company"
                         title="Company"
-                        className="inline-flex items-center"
+                        class="inline-flex items-center"
                       >
                         <Logo
                         color="text-gray-900"
                         />
-                        <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                           BLOCK FUND
                           </span>
                       </a>
@@ -91,10 +91,10 @@ const NavBar = () => {
                         <button
                           aria-label="Close Menu"
                           title="Close Menu"
-                          className="p-2 transition duration-200 rounded focus:outline-none focus:shadow-outline"
+                          class="p-2 transition duration-200 rounded focus:outline-none focus:shadow-outline"
                           onClick={() => setIsMenuOpen(false)}
                         >
-                          <svg className="w-5 text-gray-600 hover:text-gray-900" viewBox="0 0 24 24">
+                          <svg class="w-5 text-gray-600 hover:text-gray-900" viewBox="0 0 24 24">
                             <path
                               fill="currentColor"
                               d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.2,0.5,0.3,0.7,0.3s00.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
@@ -104,14 +104,14 @@ const NavBar = () => {
                         </div>
                         </div>
                         <nav>
-                          <ul className="space-y-4">
+                          <ul class="space-y-4">
                             {menuList.map((el, i) => (
                               <li key={i + 1}>
                                 <a
                                   href="/"
                                   aria-label="Our product"
                                   title="Our product"
-                                  className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                                  class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                 >
                                   {el}
                                 </a>
@@ -122,7 +122,7 @@ const NavBar = () => {
                                 href="/"
                                 aria-label="Sign up"
                                 title="Sign up"
-                                className="inline-flex items-center justify-center h-12 px-6 font-medium
+                                class="inline-flex items-center justify-center h-12 px-6 font-medium
                                 tracking-wide text-white transition duration-200 rounded-xl hover:animate-pulse shadow-md
                                 bg-teal-500 hover:bg-orange-400 focus:shadow-outline focus:outline-none"
                               >

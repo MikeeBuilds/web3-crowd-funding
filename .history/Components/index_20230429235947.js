@@ -15,5 +15,5 @@ export {
     Menu,
     Popup,
     Card,
-    Hero
+    
 };
