@@ -50,8 +50,8 @@ const NavBar = () => {
                   <button 
                     onClick={() => connectWallet()}
                     class="inline-flex items-center justify-center h-12 px-6 font-medium
-                    tracking-wide text-white transition duration-200 rounded-xl  hover:animate-pulse shadow-md
-                    bg-teal-500 hover:bg-orange-400 focus:shadow-outline focus:outline-none"
+                    tracking-wide text-white transition duration-200 rounded shadow-md
+                    bg-teal-500 hover:bg-purple-300 focus:shadow-outline focus:outline-none"
                     aria-label="sign up"
                   >
                     Connect Wallet
@@ -94,7 +94,7 @@ const NavBar = () => {
                           class="p-2 transition duration-200 rounded focus:outline-none focus:shadow-outline"
                           onClick={() => setIsMenuOpen(false)}
                         >
-                          <svg class="w-5 text-gray-600 hover:text-gray-900" viewBox="0 0 24 24">
+                          <svg class="w-5 " viewBox="0 0 24 24">
                             <path
                               fill="currentColor"
                               d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.2,0.5,0.3,0.7,0.3s00.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
@@ -123,8 +123,8 @@ const NavBar = () => {
                                 aria-label="Sign up"
                                 title="Sign up"
                                 class="inline-flex items-center justify-center h-12 px-6 font-medium
-                                tracking-wide text-white transition duration-200 rounded-xl hover:animate-pulse shadow-md
-                                bg-teal-500 hover:bg-orange-400 focus:shadow-outline focus:outline-none"
+                                tracking-wide text-white transition duration-200 rounded shadow-md
+                                bg-teal-500 hover:bg-purple-300 focus:shadow-outline focus:outline-none"
                               >
                                 Connect Wallet
                               </a>

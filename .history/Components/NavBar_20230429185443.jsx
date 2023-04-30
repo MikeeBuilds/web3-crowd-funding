@@ -50,8 +50,8 @@ const NavBar = () => {
                   <button 
                     onClick={() => connectWallet()}
                     class="inline-flex items-center justify-center h-12 px-6 font-medium
-                    tracking-wide text-white transition duration-200 rounded-xl  hover:animate-pulse shadow-md
-                    bg-teal-500 hover:bg-orange-400 focus:shadow-outline focus:outline-none"
+                    tracking-wide text-white transition duration-200 rounded shadow-md
+                    bg-teal-500 hover:bg-purple-300 focus:shadow-outline focus:outline-none"
                     aria-label="sign up"
                   >
                     Connect Wallet
@@ -72,7 +72,7 @@ const NavBar = () => {
 
               {isMenuOpen && (
                 <div class="absolute top-0 left-0 w-full z-40">
-                  <div class="p-5 bg-white border rounded shadow-sm">
+                  <div class="p-5 bg-white border rounded ">
                     <div class="flex items justify-between mb-4">
                       <a
                         href="/"
@@ -123,8 +123,8 @@ const NavBar = () => {
                                 aria-label="Sign up"
                                 title="Sign up"
                                 class="inline-flex items-center justify-center h-12 px-6 font-medium
-                                tracking-wide text-white transition duration-200 rounded-xl hover:animate-pulse shadow-md
-                                bg-teal-500 hover:bg-orange-400 focus:shadow-outline focus:outline-none"
+                                tracking-wide text-white transition duration-200 rounded shadow-md
+                                bg-teal-500 hover:bg-purple-300 focus:shadow-outline focus:outline-none"
                               >
                                 Connect Wallet
                               </a>
