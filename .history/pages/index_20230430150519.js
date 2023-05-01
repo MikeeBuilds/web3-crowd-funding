@@ -20,7 +20,7 @@ const IndexPage = () => {
 
   useEffect(() => {
     const getCampaignsData = getCampaigns();
-    const userCampaignsData = getUserCampaigns();
+    const userCampaignData = getUserCampaigns();
     return async () => {
       const allData = await getCampaignsData;
       const userData = await userCampaignsData;

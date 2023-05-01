@@ -46,7 +46,7 @@ export const CrowdFundingProvider = ({ children }) => {
     const provider = new ethers.providers.JsonRpcProvider();
     const contract = fetchContract(provider);
 
-    const campaigns = await contract.getCampaigns();
+    const campaigns = await contract.getCampaign();
 
     const parsedCampaigns = campaigns.map((campaign, i) => ({
       owner: campaign.owner,
@@ -67,7 +67,7 @@ export const CrowdFundingProvider = ({ children }) => {
     const provider = new ethers.providers.JsonRpcProvider();
     const contract = fetchContract(provider);
 
-    const allCampaigns = await contract.getCampaigns();
+    const allCampaigns = await contract.getCampaign();
 
     const accounts = await window.ethereum.request({
       method: "eth_accounts",

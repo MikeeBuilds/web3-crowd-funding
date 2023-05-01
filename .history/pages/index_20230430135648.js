@@ -15,7 +15,7 @@ const IndexPage = () => {
     getDonations,
   } = useContext(CrowdFundingContext);
 
-  const [allcampaign, setAllCampaigns] = useState();
+  const [allcampaign, setAllcampaigns] = useState();
   const [userCampaigns, setUserCampaigns] = useState();
 
   useEffect(() => {
