@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
-import { Web3Modal } from "web3modal";
+import { Web3modal } from "web3modal";
 
 //Internal import
 import { CrowdFundingABI, CrowdFundingAddress } from "./contants";
